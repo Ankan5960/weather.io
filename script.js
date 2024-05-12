@@ -33,6 +33,8 @@ async function getweather(city){
     else if(data.weather[0].main=="Drizzle"){
         weatherImg.src="images/drizzle.png";
     }
+    document.querySelector(".weather").style.display="block";;
+    
     
 }
 
