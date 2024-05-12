@@ -87,3 +87,10 @@ p{
 .weather{
     display: none;
 }
+.error{
+    text-align: left;
+    margin-left: 20px;
+    padding: 5px;
+    color: rgb(242, 81, 81);
+    display:none
+}
